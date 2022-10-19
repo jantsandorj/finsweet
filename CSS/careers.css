@@ -1,0 +1,40 @@
+.careers .text h1{
+    width: 90%;
+}
+
+.careers .text h3{
+    width: 75%;
+}
+.careers .text .button{
+    width: 180px;
+}
+.outer{
+    border: 20px;
+    background-color: #C1E4FF;
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    padding: 32px 0 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.poscard{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.pos h4{
+    margin: 0;
+}
+.pos h3{
+    margin: 8px 0 0 0;
+}
+.position{
+    margin-bottom: 128px;
+}
+.car{
+    color: #F58A07;
+}

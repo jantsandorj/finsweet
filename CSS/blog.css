@@ -1,0 +1,11 @@
+.bPic{
+    width: 849px;
+    height: 493px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 20px;
+}
+.bPic img{
+    border-radius: 20px;
+}

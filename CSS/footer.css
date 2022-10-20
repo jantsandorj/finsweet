@@ -7,7 +7,7 @@ footer{
 }
 footer .container{
     height: 463px;
-    /* padding: 80px 0; */
+    padding: 80px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -32,19 +32,22 @@ footer .moto{
 footer ul{
     display: flex;
     padding: 0;
-    gap: 20px;
 }
-footer .left ul li{
-    justify-content: flex-start;
-} 
+footer ul li img{
+    width: 22px;
+    height: 20px;
+}
 footer .left p{
     color: white;
+}
+footer .left ul{
+    width: 30%;
 }
 .middle{
     display: flex;
     width: 33%;
-    justify-content:space-evenly;
-    gap: 105px;
+    justify-content:space-around;
+    
 }
 .company{
     display: flex;
@@ -74,27 +77,34 @@ footer .left p{
 }
 input{
     width: 340px;
-    height: 54px;
+    height: 50px;
     border-radius: 30px;
+    font-size: 1.125rem;
+    text-indent: 30px;
 }
 input::placeholder {
     font-weight: 500;
     font-size: 16px;
     opacity: .5;
     color: #9C9C9C;
-    padding-left: 20px;
 }
 .subs {
     display: flex;
     flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
 .subs .button a {
     color:white;
     font-weight: 600;
-    font-size: 18;
+    font-size: 1.125rem;
 }
 .subs .button{
-    margin-top: 15px;
+    background-color: #F58A07;
+    border: none;
+    align-self: flex-start;
 }
 .policy{
     width:100%;
@@ -131,6 +141,6 @@ a:hover{
 .button a:hover{
     color: #F58A07;
 }
-/* .copyright{
+.copyright{
     margin: 0;
-} */
+}

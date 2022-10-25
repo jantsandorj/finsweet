@@ -84,7 +84,10 @@
 }
 .helpcard .card{
     width: 31%;
-    height: 450px;
+    height: 445px;
+}
+.helpcard img{
+    border-radius: 20px;
 }
 /* Solution section */
 .solution{

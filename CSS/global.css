@@ -38,7 +38,7 @@ h1{
     font-weight: 600;
     line-height: 72px;
     color: #1D3444;
-    margin: 0; 
+    
 }
 h2{
     font-size: 3rem;
@@ -51,7 +51,7 @@ h3{
     line-height: 30px;
     font-weight: 500;
     color: #5B5B5B;
-    margin: 0;
+    margin: 16px 0;
 }
 h4{
     font-size: 1.5rem;
@@ -87,7 +87,9 @@ h4{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+    border-radius: 20px;
+
 }
 .trans{
     position: absolute;
@@ -105,4 +107,12 @@ h4{
     width: 50%;
     align-items: center;
     justify-content: center;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.button:hover{
+    scale: 1.1;
+    border: solid 1px #F58A07;
 }

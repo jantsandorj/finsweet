@@ -75,14 +75,15 @@ footer .left ul{
     flex-direction: column;
     justify-content: space-between;
 }
-input{
+footer input{
     width: 340px;
     height: 50px;
     border-radius: 30px;
     font-size: 1.125rem;
     text-indent: 30px;
+    border: none;
 }
-input::placeholder {
+footer input::placeholder {
     font-weight: 500;
     font-size: 16px;
     opacity: .5;
@@ -91,7 +92,7 @@ input::placeholder {
 .subs {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 200px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -104,14 +105,14 @@ input::placeholder {
 .subs .button{
     background-color: #F58A07;
     border: none;
-    align-self: flex-start;
+    width: 156px;
 }
 .policy{
     width:100%;
     display: flex;
     justify-content: space-around;
 }
-.policy a{
+.policy p{
     color: white;
 }
 .orangeL{
